@@ -1,4 +1,8 @@
-body {
+@font-face {
+  font-family: 'Sue Ellen Francisco', cursive;
+  src: url('https://fonts.googleapis.com/css?family=Sue+Ellen+Francisco&display=swap');
+}
+  body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -10,4 +14,19 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+img {
+
+  width: 100px;
+  height: 100px;
+}
+.container-column{
+  font-family: 'Sue Ellen Francisco', cursive;
+  display: flex;
+  padding-top: 1em;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
 }

@@ -25,7 +25,9 @@ const App = () => {
         <Header/>
         <main>
             <Switch>
+
                 <Route exact path={"/"}><DashboardPage/></Route>
+
                 <Route exact path={"/login"}><LoginPage/></Route>
                 <Route exact path={"/register"}><RegisterPage/></Route>
                 <Route exact path={"/profile"}><ProfilePage/></Route>
